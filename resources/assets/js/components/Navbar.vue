@@ -1,7 +1,7 @@
 <template>
     <div class="container-fluid">
             <div>
-                <b-navbar toggleable="lg" type="dark" variant="primary" fixed="top">
+                <b-navbar toggleable="lg" type="dark" variant="primary">
                 <b-navbar-brand to="/">CDIP</b-navbar-brand>
             
                 <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>

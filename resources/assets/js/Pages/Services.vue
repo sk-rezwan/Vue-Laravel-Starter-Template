@@ -1,5 +1,6 @@
 <template>
   <div>
+      <p class="mt-10"></p>
     <b-progress :value="value" :max="max" show-progress animated></b-progress>
     <b-progress class="mt-2" :max="max" show-value>
       <b-progress-bar :value="value * (6 / 10)" variant="success"></b-progress-bar>

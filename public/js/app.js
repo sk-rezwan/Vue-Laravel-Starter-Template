@@ -80320,7 +80320,6 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
-//
 
 
 
@@ -80459,14 +80458,7 @@ var render = function() {
       [
         _c(
           "b-navbar",
-          {
-            attrs: {
-              toggleable: "lg",
-              type: "dark",
-              variant: "primary",
-              fixed: "top"
-            }
-          },
+          { attrs: { toggleable: "lg", type: "dark", variant: "primary" } },
           [
             _c("b-navbar-brand", { attrs: { to: "/" } }, [_vm._v("CDIP")]),
             _vm._v(" "),
@@ -81240,6 +81232,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
+//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
@@ -81267,6 +81260,8 @@ var render = function() {
   return _c(
     "div",
     [
+      _c("p", { staticClass: "mt-10" }),
+      _vm._v(" "),
       _c("b-progress", {
         attrs: {
           value: _vm.value,

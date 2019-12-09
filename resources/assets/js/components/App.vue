@@ -1,7 +1,6 @@
 <template>
-
   <div id="app">
-      <Navbar></Navbar>      
+      <Navbar></Navbar>   
   </div>
 </template>
 
@@ -10,7 +9,7 @@
     import Navbar from "./Navbar";
 
         export default {
-        components: { Navbar },
+        components: { Navbar},
         data: () => ({
         }),
     };
